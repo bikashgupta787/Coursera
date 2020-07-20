@@ -1,0 +1,129 @@
+#sub1{
+    margin: auto;
+    margin-bottom: 0px;
+    float: right;
+    width: 140px;
+    border: 1px solid black;
+    font-size: 25px;
+    background-color:rgb(223, 135, 149);
+    text-align: center;
+    border-right: 0px;
+    border-top: 0px;
+   
+}
+#sub2{
+    margin: auto;
+    margin-bottom: 0px;
+    float: right;
+    width: 140px;
+    border: 1px solid black;
+    font-size: 25px;
+    background-color: rgb(199, 90, 90);
+    text-align: center;
+    border-right: 0px;
+    border-top: 0px;
+}
+#sub3{
+    margin: auto;
+    margin-bottom: 0px;
+    float: right;
+    width: 140px;
+    border: 1px solid black;
+    border-right: 0px;
+    border-top: 0px;
+    font-size: 25px;
+    background-color:lemonchiffon ;
+    text-align: center;
+}
+#para{
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+   
+}
+.container{
+
+    border: 1px solid black;
+    height: 650px;  
+    margin: 5px;
+            }
+*{
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+    
+}
+@media(min-width: 992px)  {
+    .col-4{
+        float: left;
+        border: 1px solid black;
+        width: 31.3%;
+        background-color: rgb(134, 132, 132);
+        margin-left: 20px;
+        height: 175px;
+        overflow: hidden;
+      
+    }
+
+}
+@media(min-width: 768px) and ( max-width: 991px){
+.med{
+     float: left;
+        border: 1px solid black;
+        width: 47%;
+        background-color: rgb(134, 132, 132);
+        margin-left: 20px;
+        height: 175px;
+        overflow:hidden;
+        margin-bottom: 20px;
+        
+    }
+}
+@media(min-width: 768px) and ( max-width: 991px){
+.med-large{
+     float: left;
+        border: 1px solid black;
+        width: 97%;
+        background-color: rgb(134, 132, 132);
+        margin-left: 20px;
+        height: 175px;
+        overflow:hidden;
+    }
+}
+@media ( max-width: 767px){
+.small{
+     float: left;
+        border: 1px solid black;
+        width: 97;
+        background-color: rgb(134, 132, 132);
+        margin: 20px;
+
+        height: 175px;
+        overflow:hidden;
+        margin-bottom: 0px;
+        
+    }
+}
+@media ( max-width: 767px){
+.container{
+
+border: 1px solid black;
+height: 800px;  
+margin: 5px;
+       }
+    }
+    @media ( min-width: 992px){
+.container{
+
+border: 1px solid black;
+height: 500px;  
+margin: 5px;
+       }
+    }
+#FrontHeading{ 
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
